@@ -72,10 +72,10 @@ GreenGain/
 
 ## 📞 Contact Information
 
-- **Email**: chandraherbals51@gmail.com
-- **Phone**: +91-9413538145
-- **Instagram**: @bhupendranaturals
-- **FSSAI**: 12223999000050
+- **Email**: greengainindia@gmail.com
+- **Phone**: +91-9685201795
+- **Instagram**: @greengainindia
+- **FSSAI**: 21425990000788
 
 ---
-*Made for Bhupendra Naturals & Chandra Herbals*
+*Made for Green Gain India*
