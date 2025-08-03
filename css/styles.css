@@ -115,7 +115,7 @@ body {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #2E8B57;
+    color: #0d3c1e;
     display: flex;
     align-items: center;
 }
@@ -135,7 +135,7 @@ body {
 }
 
 .nav-menu a:hover {
-    color: #2E8B57;
+    color: #0d3c1e;
 }
 
 .nav-menu a::after {
@@ -145,7 +145,7 @@ body {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background: linear-gradient(135deg, #2E8B57, #228B22);
+    background: linear-gradient(135deg, #0d3c1e, #145c2c);
     transition: width 0.3s ease;
 }
 
@@ -170,7 +170,7 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(135deg, rgba(46, 139, 87, 0.9), rgba(34, 139, 34, 0.9)), url('spirulina-hero-banner.png');
+    background: linear-gradient(135deg, #0d3c1e 90%, #145c2c 100%);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -272,7 +272,7 @@ body {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 0.5rem; /* Reduced from 1rem */
-    color: #2E8B57;
+    color: #0d3c1e;
     background: none;
 }
 
@@ -391,30 +391,31 @@ body {
 
 .highlight-item {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    text-align: left;
     gap: 1rem;
     padding: 1.5rem;
-    background: rgba(46, 139, 87, 0.05);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     border-radius: 15px;
     transition: all 0.3s ease;
-    border-left: 4px solid #2E8B57;
-}
-
-.highlight-item:hover {
-    background: rgba(46, 139, 87, 0.1);
-    transform: translateY(-3px);
+    width: 320px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
     box-shadow: 0 10px 30px rgba(46, 139, 87, 0.1);
 }
 
 .highlight-item i {
     font-size: 1.8rem;
-    color: #2E8B57;
+    color: #0d3c1e;
     margin-top: 0.2rem;
     min-width: 30px;
 }
 
 .highlight-item h4 {
-    color: #2E8B57;
+    color: #0d3c1e;
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
@@ -597,7 +598,7 @@ body {
 .product-card h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #2E8B57;
+    color: #0d3c1e;
 }
 
 .product-card p {
@@ -614,7 +615,7 @@ body {
 
 /* Benefits Section */
 .benefits {
-    background: linear-gradient(135deg, #2E8B57, #228B22);
+    background: linear-gradient(135deg, #0d3c1e, #145c2c);
     color: white;
     position: relative;
     overflow: hidden;
@@ -707,7 +708,7 @@ body {
     font-size: 1.2rem; /* Reduced from 1.4rem */
     margin-bottom: 0.8rem; /* Reduced from 1rem */
     font-weight: 600;
-    color: #FFFFFF;
+    color: #fff;
 }
 
 .benefit-card p {
@@ -768,7 +769,7 @@ body {
 
 /* Contact Section */
 .contact {
-    background: linear-gradient(135deg, #2E8B57, #228B22);
+    background: linear-gradient(135deg, #0d3c1e, #145c2c);
     scroll-margin-top: 120px;
     min-height: 100vh;
     display: flex;
@@ -865,7 +866,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #2E8B57;
+    color: #0d3c1e;
     font-size: 1.3rem;
     margin-right: 0;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
@@ -956,7 +957,7 @@ body {
 .submit-btn {
     width: 100%;
     padding: 1rem;
-    background: linear-gradient(135deg, #2E8B57, #228B22);
+    background: linear-gradient(135deg, #0d3c1e, #145c2c);
     color: white;
     border: none;
     border-radius: 10px;
@@ -973,8 +974,8 @@ body {
 
 /* Footer */
 .footer {
-    background: linear-gradient(135deg, #f8fffe 0%, #e8f5f3 100%);
-    color: #333;
+    background: linear-gradient(135deg, #0d3c1e 0%, #145c2c 100%);
+    color: #fff;
     padding: 3rem 0 1rem;
     text-align: center;
 }
@@ -993,7 +994,7 @@ body {
 .social-link {
     width: 50px;
     height: 50px;
-    background: linear-gradient(135deg, #2E8B57, #228B22);
+    background: linear-gradient(135deg, #0d3c1e, #145c2c);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1010,9 +1011,9 @@ body {
 }
 
 .footer-bottom {
-    border-top: 1px solid #333;
+    border-top: 1px solid #fff;
     padding-top: 1rem;
-    color: #888;
+    color: #fff;
 }
 
 /* Animations */
@@ -1046,10 +1047,10 @@ body {
 
     .nav-menu {
         position: fixed;
-        top: 80px;
+    color: white;
         left: -100%;
         width: 100%;
-        height: calc(100vh - 80px);
+    color: white;
         background: white;
         flex-direction: column;
         align-items: center;
