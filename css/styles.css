@@ -344,6 +344,16 @@ body {
     display: flex;
     align-items: center;
     gap: 2rem;
+    .mission-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .mission-image {
+        width: 100%;
+        max-width: 250px;
+        margin-bottom: 1rem;
+    }
 }
 
 .mission-content p {
